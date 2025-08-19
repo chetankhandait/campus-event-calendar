@@ -310,8 +310,8 @@ const CampusEventCalendar: React.FC = () => {
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null)
   const [isCreateModalOpen, setIsCreateModalOpen] = useState<boolean>(false)
   const [isEventDetailOpen, setIsEventDetailOpen] = useState<boolean>(false)
-
-  const currentUser: string = "Akash Patel"
+ console.log(isCreateModalOpen);
+  const currentUser: string = "Samiksha Saxena"
 
   // New event form state
   const [newEvent, setNewEvent] = useState<NewEventForm>({
